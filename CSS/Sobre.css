@@ -1,0 +1,245 @@
+/* Sobre */
+*{
+margin:0px;
+padding:0px;
+}
+/*fonte*/
+@font-face{
+	font-family: "SP";
+	src: url("SP.ttf") format("truetype");
+
+}
+.SP{
+	font-family: "SP";
+}
+/*Corpo*/
+body{
+	width: 980px;
+	background-color: #ccc;
+	background-image: url("FUNDOZ.jpg");
+	background-size: 100%;
+	background-repeat-x: repeat;
+}
+/*Botao*/
+.BOT{
+	margin-top: -20px;
+	margin-left: 150px;
+}
+ul{
+	position: absolute;
+	text-align: center;
+
+}
+ul li{
+	float:left;
+	width: 300px;
+	height: 115px;
+	overflow: hidden;
+	margin-right: 20px;
+
+}
+ul li:last-child{
+	margin-right: 0px;
+}
+ul li img:first-child{
+	transition: 1s;
+}
+ul li:hover img:first-child{
+	margin:-120px 0 0;
+	transform: rotate(145deg);
+}
+
+/*Parte do sobre informações*/
+/*IDS*/
+#B{
+	position: absolute;
+	width: 750px;
+	height: 250px;
+	background-color: #3e3e3e;
+	border-radius: 10px;
+	box-shadow: -5px -5px 50px #000000;
+	margin-top: 200px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	border-color: #FFFFFF;
+}
+#A{
+	position: absolute;
+	width: 750px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: -5px -5px 50px #000000;
+	margin-top: 470px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	border-color: #FFFFFF;
+	background-color: #3e3e3e;
+}
+#C{
+	position: absolute;
+	width: 750px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: -5px -5px 50px #000000;
+	margin-top: 745px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	border-color: #FFFFFF;
+	background-color: #3e3e3e;
+}
+#E{
+	position: absolute;
+	width: 750px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: -5px -5px 50px #000000;
+	margin-top: 1020px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	border-color: #FFFFFF;
+	background-color: #3e3e3e;
+}
+#F{
+	position: absolute;
+	width: 750px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: -5px -5px 50px #000000;
+	margin-top: 1300px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	border-color: #FFFFFF;
+	background-color: #3e3e3e;
+}
+#IF{
+	position: absolute;
+	width: 400px;
+	height: 450px;
+	border-radius: 10px;
+	box-shadow: -5px -5px 50px #000000;
+	margin-top: 200px;
+	margin-left: 950px;
+	margin-bottom: 30px;
+	border-color: #FFFFFF;
+	background-color: #3e3e3e;
+}
+/*Div Cinza de todo mundo*/
+.DIVALL{
+	position: relative;
+	background-color: #a9a9a9;
+	width:500px;
+	height: 150px;
+	z-index: 1;
+	margin-top: -250px;
+	margin-left: 180px;
+	margin-bottom: 30px;
+	border-top-right-radius: 60px;
+	box-shadow: 1px 1px 60px;	
+}
+.DIVALL p {
+	color: white;
+}
+.G1{
+	position: absolute;
+	height: 200px;
+	margin-left:25px;
+	margin-top: 30px;
+	border-radius: 5px;
+	box-shadow: -1px 1px 25px;
+	z-index: 2;
+}
+.G2{
+	position: absolute;
+	height: 200px;
+	margin-left:25px;
+	margin-top: 30px;
+	border-radius: 5px;
+	box-shadow: -1px 1px 25px;
+	z-index: 2;
+}
+.G3{
+	position: absolute;
+	height: 200px;
+	margin-left:25px;
+	margin-top: 30px;
+	border-radius: 5px;
+	box-shadow: -1px -1px 25px;
+	z-index: 2;
+}
+.G4{
+	position: absolute;
+	height: 200px;
+	margin-left:25px;
+	margin-top: 30px;
+	border-radius: 5px;
+	box-shadow: -1px 1px 25px;
+	z-index: 2;
+}
+.G5{
+	position: absolute;
+	height: 200px;
+	margin-left:25px;
+	margin-top: 30px;
+	border-radius: 5px;
+	box-shadow: -1px 1px 25px;
+	z-index: 2;
+}
+
+.N1{
+	position: relative;
+	left: 510px;
+	top:-35px;
+	transform: rotate(90deg);
+	z-index: 2;
+}
+.N2{
+	position: relative;
+	left: 510px;
+	top:-35px;
+	transform: rotate(90deg);
+	z-index: 2;
+}
+.N3{
+	position: relative;
+	left: 510px;
+	top:-35px;
+	transform: rotate(90deg);
+	z-index: 2;
+}
+.N4{
+	position: relative;
+	left: 510px;
+	top:-35px;
+	transform: rotate(90deg);
+	z-index: 2;
+}
+.N5{
+	position: relative;
+	left: 510px;
+	top:-35px;
+	transform: rotate(90deg);
+	z-index: 2;
+}
+.IMG{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	left: 50px;
+	top:25px;
+	box-shadow:1px 1px 50px #238E23;
+}
+.pe{
+	position: relative;
+	width: 400px;
+	height: 100px;
+	background-color: solid black;
+	color: white;
+	padding-top: 25px;
+}
+/*Frases*/
+.Ajuste{
+	position: relative;
+	margin-left: 5px;
+	margin-top: 15px;
+	text-align: center;
+}

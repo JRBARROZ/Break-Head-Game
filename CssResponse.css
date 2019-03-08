@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	background-image: url('_imagens/Background/background.jpg');
+	background-repeat:repeat;
+	background-size: 100%;
+}
+/*logo*/
+.logo{
+	margin-left: 125px;
+}
+/*Menu*/
+.Menu{
+	width: 1000px;
+	height: 125px;
+	margin-left: 165px;
+	border-radius: 50px;
+}
+.Menu ul{
+	position: relative;
+	margin-left: 25px;
+}
+.Menu ul li{
+	float:left;
+	width: 300px;
+	height: 120px;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.Menu ul li:last-child{
+	margin-right: 0px;
+}
+.Menu ul li img:first-child{
+	transition: 1s;
+}
+.Menu ul li:hover img:first-child{
+	margin:-120px 0 0;
+	transform: rotate(145deg);
+}
+.kurau{
+	width: 1200px;
+	height: 503px;
+	margin:50px 0px 10px 75px;
+}
+.k,.o{
+	position: relative;
+	margin:0px 0px 0px 378px;
+	border-radius: 20px;
+	box-shadow: 20px 30px 100px #ffa500;
+	
+}
+.l{
+	position: relative;
+	margin-top: -550px;
+	margin-left: 10px;
+	z-index: 1;
+}
+.n{
+	border-radius: 20px;
+	box-shadow: -30px -10px 100px #FFFF00;
+}
+.p,.f{
+	position: relative;
+	z-index: 0;
+	background-color: #000;
+	margin:-584px 0px 0px 0px;
+	opacity: 0.5;
+	width: 409px;
+	height: 503px;
+	border-radius: 20px;
+}
+.f{
+	margin-top: -503px;
+	margin-left: 791px;
+	background-color: #000;
+}
+@media only screen and (min-width: 1400px){
+	.kurau{
+		margin-left: 16%;
+	}
+	.Menu{
+		margin-left: 22%;
+	}
+	.logo{
+		margin-left: 22%;
+	}
+}
